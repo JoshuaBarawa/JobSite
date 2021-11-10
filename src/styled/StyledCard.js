@@ -89,8 +89,6 @@ import styled from 'styled-components'
         justify-content: flex-start;
      }
 
-     
-
      #description #contract, #postedAt, #location{
         display: inline-block;
         margin-top: 10px;
@@ -117,6 +115,13 @@ import styled from 'styled-components'
    
       #description #contract, #postedAt, #location{
         margin-bottom: 10px;
+     }
+
+     #logo{
+         width: 70px;
+         position: relative;
+         margin-top: -50px;
+        
      }
  
      }
