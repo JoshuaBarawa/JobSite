@@ -16,9 +16,9 @@ function App() {
     <ThemeProvider theme={theme}>
 
    <GlobalStyle />
-   <Header />
+    <Header />
+    
     <StyledContainer>
-  
      <Jobs />
     </StyledContainer>
 

@@ -10,7 +10,9 @@ import styled from 'styled-components'
     align-items: center;
     justify-content: space-between;
     background-color: #fff;
-    
+    word-break: break-all;
+   
+
     #desc{
         display: flex;
         justify-content: space-between;
@@ -77,6 +79,32 @@ import styled from 'styled-components'
         border-left: hsl(180, 29%, 50%) 4px solid;
         cursor: pointer;
     }
+
+    @media (max-width: 1400px){
+       flex-direction: column;
+       
+       #desc{
+        margin-bottom: 20px;
+     }
+
+     
+ 
+
+    }
+
+    @media (max-width: 850px){
+       
+        #desc{
+            flex-direction: column; 
+      }
+
+    #tools span{
+        display: inline-block;
+        margin-top: 10px;
+     }
+
+ 
+     }
 
 `
 

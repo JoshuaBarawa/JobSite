@@ -14,6 +14,21 @@ body{
     background-color: hsl(180, 31%, 95%);
 }
 
+#search{
+    padding: 10px 40px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    border:none;
+    background-color: hsl(180, 31%, 85%);
+    font-size: 18px;
+    position: sticky;
+    top: 5%;
+}
+
+#search:focus{
+   outline:none;
+}
+
 `
 
 export default GlobalStyle
