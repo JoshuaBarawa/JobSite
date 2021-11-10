@@ -29,6 +29,13 @@ body{
    outline:none;
 }
 
+@media (max-width: 710px){
+    #search{
+       width: 100%;
+     }
+
+ }
+
 `
 
 export default GlobalStyle

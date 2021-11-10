@@ -76,7 +76,7 @@ import styled from 'styled-components'
 
 
     &:hover{
-        border-left: hsl(180, 29%, 50%) 4px solid;
+        border-left: hsl(180, 29%, 50%) 3px solid;
         cursor: pointer;
     }
 
@@ -88,21 +88,29 @@ import styled from 'styled-components'
      }
 
      
- 
 
+     #description #contract, #postedAt, #location{
+        display: inline-block;
+        margin-top: 10px;
     }
-
-    @media (max-width: 850px){
-       
-        #desc{
-            flex-direction: column; 
-      }
 
     #tools span{
         display: inline-block;
         margin-top: 10px;
      }
+    }
 
+    @media (max-width: 710px){
+        #desc{
+            flex-direction: column; 
+            border-bottom: hsl(180, 8%, 52%) 2px solid;
+            align-items: left; 
+            width: 100%; 
+      }
+   
+      #description #contract, #postedAt, #location{
+        margin-bottom: 10px;
+     }
  
      }
 
