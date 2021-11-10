@@ -85,6 +85,8 @@ import styled from 'styled-components'
        
        #desc{
         margin-bottom: 20px;
+        width: 100%; 
+        justify-content: flex-start;
      }
 
      
@@ -98,6 +100,11 @@ import styled from 'styled-components'
         display: inline-block;
         margin-top: 10px;
      }
+
+     #tools{
+        width: 100%;
+     }
+
     }
 
     @media (max-width: 710px){
