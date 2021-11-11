@@ -118,9 +118,9 @@ import styled from 'styled-components'
      }
 
      #logo{
-        width: 50px;
-         position: relative;
-         
+        width: 70px;
+        position: relative;
+         top: -30px;
         
      }
  
