@@ -23,6 +23,7 @@ body{
     font-size: 18px;
     position: sticky;
     top: 5%;
+    z-index:1;
 }
 
 #search:focus{

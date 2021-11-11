@@ -10,7 +10,7 @@ function Card ({id, item}) {
          
            <div id="desc">
 
-           <img id="logo" src={item.logo} alt='' />
+           <img id="logo" src={item.logo} alt='hello' />
 
            <div id="description">
            <span>{item.company}</span>
